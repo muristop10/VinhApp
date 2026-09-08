@@ -14,6 +14,7 @@ const Card = ({
         const vinho = {
             nome,
             preco,
+            quantidade: 1
         }
         setCarrinho([...carrinho, vinho]);
     }

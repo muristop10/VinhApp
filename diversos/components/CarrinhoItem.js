@@ -1,26 +1,36 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import { styles } from '../styles'
-import { Feather } from '@expo/vector-icons'
+import { View, Text } from "react-native";
+import React from "react";
+import { styles } from "../styles";
+import { Feather } from "@expo/vector-icons";
 
-const CarrinhoItem = ({
-    vinho,
-}) => {
+const CarrinhoItem = ({ vinho }) => {
 
-    return (
-        <View style={styles.carrinhoItem}>
-            <View style={styles.carrinhoInfo}>
-                <Text style={styles.carrinhoNome}>{vinho.nome}</Text>
-                <Text style={styles.carrinhoPreco}>{vinho.preco}</Text>
-            </View>
+  return (
+    <View style={styles.carrinhoItem}>
+      <View style={styles.carrinhoInfo}>
+        <Text style={styles.carrinhoNome}>{vinho.nome}</Text>
+        <Text style={styles.carrinhoPreco}>{vinho.preco}</Text>
+      </View>
 
-            <View style={styles.buttonsView}>
-                <Feather name='minus' size={24} color='black' onPress={() => vinho.quantidade--}/>
-                <Text style={styles.quantidadeText}>{vinho.quantidade}</Text>
-                <Feather name='plus' size={24} color='black' onPress={() => vinho.quantidade++}/>
-            </View>
-        </View>
-    )
-}
+      <View style={styles.buttonsView}>
+        <Feather
+          name="minus"
+          size={24}
+          color="black"
+          style={styles.opButton}
+          onPress={() => (alert("Diminuir quantidade"))}
+        />
+        <Text style={styles.quantidadeText}>{vinho.quantidade}</Text>
+        <Feather
+          name="plus"
+          size={24}
+          color="black"
+          style={styles.opButton}
+          onPress={() =>(alert("Aumentar quantidade"))}
+        />
+      </View>
+    </View>
+  );
+};
 
-export default CarrinhoItem
+export default CarrinhoItem;
