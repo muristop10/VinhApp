@@ -85,11 +85,35 @@ export const styles = StyleSheet.create({
     color: '#4A0E17',
   },
 
-  // carinho itens
+  // carrinho itens
   carrinhoItem: {
-    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
     padding: 8,
     borderBottomWidth: 1,
     borderBottomColor: '#ccc',
+  },
+  carrinhoInfo: {
+    flex: 1,
+    marginRight: 10,
+  },
+  carrinhoNome: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#4A0E17',
+  },
+  carrinhoPreco: {
+    fontSize: 14,
+    color: '#666666',
+    marginTop: 4,
+  },
+  buttonsView: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderLeftWidth: 1,
+    borderRightWidth: 1,
+    borderColor: '#ccc',
+    paddingHorizontal: 8,
   }
 });

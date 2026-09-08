@@ -27,6 +27,7 @@ export default function App() {
           );
         })}
         <Carrinho carrinho={carrinho} setCarrinho={setCarrinho} />
+        <Formulario />
       </View>
     </ScrollView>
   );

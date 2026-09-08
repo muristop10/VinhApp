@@ -6,6 +6,7 @@ export const vinhos = [
         descricao: 'Vinho rosé leve e refrescante, com notas de frutas vermelhas.',
         imagem: 'https://www.wine.com.br/cdn-cgi/image/f=png,h=515,q=99/assets-images/produtos/31847-01.png',
         teorAlcool: '12%',
+        quantidade: 0
     },
     {
         nome: 'Tinto Vale Dourado',
@@ -14,6 +15,7 @@ export const vinhos = [
         descricao: 'Vinho tinto encorpado, com aromas de frutas maduras e especiarias.',
         imagem: 'https://www.wine.com.br/cdn-cgi/image/f=png,h=176,q=99/assets-images/produtos/31067-01.png',
         teorAlcool: '13,5%',
+        quantidade: 0   
     },
     {
         nome: 'Branco Brisa do Vale',
@@ -22,6 +24,7 @@ export const vinhos = [
         descricao: 'Vinho branco fresco e aromático, com notas cítricas e florais.',
         imagem: 'https://www.wine.com.br/cdn-cgi/image/f=png,h=176,q=99/assets-images/produtos/32366-01.png',
         teorAlcool: '11,5%',
+        quantidade: 0
     },
     {
         nome: 'Rosé Pétalas do Sol',
@@ -30,6 +33,7 @@ export const vinhos = [
         descricao: 'Rosé elegante com toques de morango, pêssego e final suave.',
         imagem: 'https://www.wine.com.br/cdn-cgi/image/f=png,h=176,q=99/assets-images/produtos/26160-01.png',
         teorAlcool: '12,5%',
+        quantidade: 0
     },
     {
         nome: 'Rosé Primavera',
@@ -38,6 +42,7 @@ export const vinhos = [
         descricao: 'Vinho jovem e vibrante, ideal para dias quentes e pratos leves.',
         imagem: 'https://www.wine.com.br/cdn-cgi/image/f=png,h=176,q=99/assets-images/produtos/30796-01.png',
         teorAlcool: '11,8%',
+        quantidade: 0
     },
     {
         nome: 'Tinto Reserva da Magueira',
@@ -46,6 +51,7 @@ export const vinhos = [
         descricao: 'Tinto nobre estagiado em carvalho, com notas de baunilha e cacau.',
         imagem: 'https://www.wine.com.br/cdn-cgi/image/f=png,h=176,q=99/assets-images/produtos/31640-01.png',
         teorAlcool: '14%',
+        quantidade: 0
     },
     {
         nome: 'Tinto Cordilheira',
@@ -54,6 +60,7 @@ export const vinhos = [
         descricao: 'Vinho equilibrado com taninos macios e aroma marcante de ameixa.',
         imagem: 'https://www.wine.com.br/cdn-cgi/image/f=png,h=176,q=99/assets-images/produtos/31982-01.png',
         teorAlcool: '13,8%',
+        quantidade: 0
     },
     {
         nome: 'Branco Sol de Verão',
@@ -62,6 +69,7 @@ export const vinhos = [
         descricao: 'Branco mineral e crocante, excelente para acompanhar frutos do mar.',
         imagem: 'https://www.wine.com.br/cdn-cgi/image/f=png,h=176,q=99/assets-images/produtos/32248-01.png',
         teorAlcool: '12%',
+        quantidade: 0
     },
     {
         nome: 'Branco Quinta dos Pomares',
@@ -70,5 +78,6 @@ export const vinhos = [
         descricao: 'Vinho com destaque para acidez equilibrada e notas marcantes de maçã verde.',
         imagem: 'https://www.wine.com.br/cdn-cgi/image/f=png,h=176,q=99/assets-images/produtos/32094-01.png',
         teorAlcool: '12,2%',
+        quantidade: 0
     }
 ];
