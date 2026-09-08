@@ -1,6 +1,6 @@
 import { View, Text } from "react-native";
 import React from "react";
-import { styles } from "../styles";
+import { styles } from "../../assets/styles/styles";
 import { Feather } from "@expo/vector-icons";
 
 const CarrinhoItem = ({ vinho }) => {

@@ -1,6 +1,6 @@
 import { View, Text, Pressable, /* Image */ } from "react-native";
 import React from "react";
-import { styles } from "../diversos/styles";
+import { styles } from "../assets/styles/styles";
 import { vinhos } from "../diversos/constants/vinhos";
 import {
   opcoesPreco,

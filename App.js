@@ -1,6 +1,6 @@
 // Alunos: Murilo Eduardo Thomé, Eloiza Teodoro De Carli
 import { Text, View, ScrollView } from 'react-native';
-import { styles } from './diversos/styles';
+import { styles } from './assets/styles/styles';
 import { vinhos } from './diversos/constants/vinhos';
 import Card from './diversos/components/Card';
 import { useState } from 'react';

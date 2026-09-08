@@ -3,5 +3,6 @@ Alunos: Murilo Eduardo Thomé, Eloiza Teodoro De Carli
 
 Link do projeto no Snack Expo:  https://snack.expo.dev/@murilo.et/vinhapp
 Link do Google Drive: https://drive.google.com/drive/folders/1KkSGlNVhIT74CFWgvAKuqe-9SLTpv9lH?usp=sharing
+Link do repositório GitHub: https://github.com/muristop10/VinhApp
 
 (A pasta do Drive contém uma pasta zipada do projeto)

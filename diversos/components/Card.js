@@ -1,5 +1,5 @@
 import { View, Text, Image, Pressable } from 'react-native'
-import { styles } from '../styles'
+import { styles } from '../../assets/styles/styles'
 
 const Card = ({
     nome,
