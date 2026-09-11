@@ -6,14 +6,16 @@ import Card from './diversos/components/Card';
 import { useState } from 'react';
 import Carrinho from './diversos/components/Carrinho';
 import Formulario from './formulario/Formulario';
+import Filtro from './diversos/components/Filtro';
 
-export default function App() {
+const App = () => {
   const [carrinho, setCarrinho] = useState([]);
 
   return (
     <ScrollView>
-      <View>
+      <View style={styles.container}>
         <Text style={styles.titulo}>VinhApp</Text>
+        <Filtro />
         {vinhos.map((vinho, index) => {
           return (
             <Card
@@ -32,4 +34,6 @@ export default function App() {
       </View>
     </ScrollView>
   );
-}
+};
+
+export default App;

@@ -29,15 +29,16 @@ const Carrinho = ({ carrinho, setCarrinho }) => {
       </View>
 
       <View style={styles.carrinhoBotaoContainer}>
-        <Pressable style={styles.carrinhoBotao} onPress={() => setCarrinho([])}>
-          <Text style={styles.carrinhoBotaoText}>Limpar Carrinho</Text>
+        <Pressable style={styles.carrinhoBotaoSecundario} onPress={() => setCarrinho([])}
+        >
+          <Text>Limpar Carrinho</Text>
         </Pressable>
 
         <Pressable
-          style={styles.carrinhoBotao}
+          style={styles.carrinhoBotaoPrimario}
           onPress={() => alert("Compra realizada!")}
         >
-          <Text style={styles.carrinhoBotaoText}>Finalizar Compra</Text>
+          <Text>Finalizar Compra</Text>
         </Pressable>
       </View>
     </View>

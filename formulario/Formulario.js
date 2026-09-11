@@ -19,7 +19,7 @@ const Formulario = () => {
 
   return (
     <View>
-      <Text style={styles.tituloh2}>Formulario</Text>
+      <Text style={styles.tituloh2}>Formulário</Text>
       <Text style={styles.span}>
         Qual será o vinho ideal para você? Descubra aqui!
       </Text>
@@ -53,8 +53,8 @@ const Formulario = () => {
         ))}
       </View>
 
-      <View style={styles.formularioBotao}>
-        <Pressable style={styles.formularioBotaoText} onPress={handleSubmit}>
+      <View style={styles.formularioBotaoView}>
+        <Pressable style={styles.formularioBotao} onPress={handleSubmit}>
           Descubra seu vinho!
         </Pressable>
       </View>
