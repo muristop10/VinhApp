@@ -16,19 +16,21 @@ const App = () => {
       <View style={styles.container}>
         <Text style={styles.titulo}>VinhApp</Text>
         <Filtro />
-        {vinhos.map((vinho, index) => {
-          return (
-            <Card
-              key={index}
-              nome={vinho.nome}
-              preco={vinho.preco}
-              imagem={vinho.imagem}
-              teorAlcool={vinho.teorAlcool}
-              carrinho={carrinho}
-              setCarrinho={setCarrinho}
-            />
-          );
-        })}
+        <View style={styles.cardContainer}>
+          {vinhos.map((vinho, index) => {
+            return (
+              <Card
+                key={index}
+                nome={vinho.nome}
+                preco={vinho.preco}
+                imagem={vinho.imagem}
+                teorAlcool={vinho.teorAlcool}
+                carrinho={carrinho}
+                setCarrinho={setCarrinho}
+              />
+            );
+          })}
+        </View>
         <Carrinho carrinho={carrinho} setCarrinho={setCarrinho} />
         <Formulario />
       </View>

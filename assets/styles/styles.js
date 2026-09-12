@@ -1,10 +1,10 @@
 import { StyleSheet } from 'react-native';
 
-const colors = {
-  primary: '#722F37', // Vinho principal
-  primaryDark: '#3B1318', // Vinho escuro
-  primaryLight: '#A34854', // Vinho claro
-  background: '#FAF8F5', // Off-white
+export const colors = {
+  primary: '#722F37',
+  primaryDark: '#3B1318',
+  primaryLight: '#A34854',
+  background: '#FAF8F5',
   golden: '#D3AF37',
   surface: '#FFFFFF',
   textDark: '#2A1B18',
@@ -23,6 +23,12 @@ const buttonShadow = {
 
 export const styles = StyleSheet.create({
   container: { flex: 1, padding: 16, backgroundColor: colors.background },
+  cardContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+  },
 
   // Títulos
   titulo: {
@@ -47,15 +53,10 @@ export const styles = StyleSheet.create({
     textAlign: 'center',
   },
 
-  // Grid e Cards (Quebra corrigida para 2 por linha)
-  listaCards: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    justifyContent: 'space-between',
-    width: '100%',
-  },
+  // Cards
   card: {
     width: '48%', // Exatamente 2 colunas lado a lado
+    maxWidth: 200,
     backgroundColor: colors.surface,
     borderRadius: 12,
     padding: 12,
@@ -188,6 +189,10 @@ export const styles = StyleSheet.create({
     ...buttonShadow,
   },
 
+  carrinhoBotaoPrimarioText: {
+    color: colors.white
+  },
+
   // Botão Secundário (Outline Limpo com Alto Contraste)
   carrinhoBotaoSecundario: {
     backgroundColor: colors.surface,
@@ -236,6 +241,12 @@ export const styles = StyleSheet.create({
     marginBottom: 14,
     borderWidth: 1,
     borderColor: colors.border,
+
+    shadowColor: colors.primary,
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.12,
+    shadowRadius: 4,
+    elevation: 3,
   },
   labelFiltro: {
     fontSize: 15,
