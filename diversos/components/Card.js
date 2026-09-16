@@ -1,3 +1,4 @@
+//Construção dos Cards dos vinhos
 import { View, Text, Image, Pressable } from 'react-native';
 import { styles } from '../../assets/styles/styles';
 

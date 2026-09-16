@@ -190,7 +190,7 @@ export const styles = StyleSheet.create({
   },
 
   carrinhoBotaoPrimarioText: {
-    color: colors.white
+    color: colors.white,
   },
 
   // Botão Secundário (Outline Limpo com Alto Contraste)
@@ -253,5 +253,167 @@ export const styles = StyleSheet.create({
     fontWeight: '600',
     color: colors.primary,
     marginBottom: 8,
+  },
+
+  //Header
+  headerContainer: {
+    backgroundColor: colors.primary,
+    paddingTop: 40, // Espaço importante     para a barra de bateria/sinal do celular (StatusBar)
+    paddingBottom: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderBottomWidth: 2,
+    borderBottomColor: colors.golden, //linha dourada
+    marginBottom: 16,
+    width: '100%',
+  },
+  headerTitle: {
+    color: colors.surface,
+    fontSize: 26,
+    fontWeight: 'bold',
+    letterSpacing: 2, // Dá um espacinho extra entre as letras
+  },
+
+  //Footer
+  footerContainer: {
+    backgroundColor: colors.primaryDark,
+    paddingVertical: 24,
+    paddingHorizontal: 16,
+    alignItems: 'center',
+    marginTop: 20,
+  },
+  footerText: {
+    color: colors.surface,
+    fontSize: 13,
+    textAlign: 'center',
+    marginBottom: 16,
+  },
+  footerLinksContainer: {
+    flexDirection: 'row', // Coloca os botões lado a lado (como no flexbox)
+    flexWrap: 'wrap', // Se a tela for pequena, joga pra linha de baixo
+    justifyContent: 'center',
+    gap: 16, // Espaçamento entre os links
+  },
+  footerLinkText: {
+    color: colors.golden,
+    fontSize: 14,
+    fontWeight: 'bold',
+  },
+
+  // Filtro
+  filtroContainer: {
+    backgroundColor: colors.surface,
+    padding: 14,
+    borderRadius: 10,
+    marginBottom: 14,
+    borderWidth: 1,
+    marginBottom: 16,
+    borderColor: colors.border,
+    shadowColor: colors.primary,
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.12,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+
+//filtro
+  filtroHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 10,
+  },
+
+  botaoFiltro: {
+    backgroundColor: colors.primary,
+    paddingVertical: 8,
+    paddingHorizontal: 12,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+
+  textoBotao: {
+    color: colors.white,
+    fontWeight: '600',
+    fontSize: 14,
+    letterSpacing: 0.5,
+  },
+  
+  //formulário
+  erroText: {
+    color: 'red', 
+    fontWeight: 'bold', 
+    marginBottom: 12, 
+    textAlign: 'center'
+  },
+  formularioBotaoText: {
+    color: colors.white, 
+    fontWeight: 'bold', 
+    textAlign: 'center'
+  },
+
+  resultadoContainer: {
+    alignItems: 'center', 
+    marginTop: 20, 
+    padding: 12, 
+    borderWidth: 1, 
+    borderColor: colors.golden, 
+    borderRadius: 8
+  },
+  resultadoTextoDestaque: {
+    fontSize: 16, 
+    color: colors.primary, 
+    fontWeight: 'bold'
+  },
+  resultadoTextoSecundario: {
+    marginVertical: 8, 
+    color: colors.textDark, 
+    textAlign: 'center'
+  },
+  resultadoTextoFinal: {
+    fontSize: 18, 
+    color: colors.primary, 
+    fontWeight: 'bold'
+  },
+
+  //Carrossel vinhos calculadora 
+  scrollVinhos: {
+    paddingVertical: 10,
+    marginBottom: 10,
+  },
+  vinhoOption: {
+    backgroundColor: colors.background,
+    borderWidth: 1,
+    borderColor: colors.border,
+    borderRadius: 8,
+    padding: 10,
+    marginRight: 10,
+    alignItems: 'center',
+    width: 120,
+  },
+  vinhoOptionSelecionado: {
+    backgroundColor: colors.primaryLight,
+    borderColor: colors.primary,
+  },
+  vinhoOptionText: {
+    fontSize: 12,
+    color: colors.textDark,
+    textAlign: 'center',
+    fontWeight: '600',
+    marginTop: 6,
+  },
+  vinhoOptionTextSelecionado: {
+    color: colors.white,
+  },
+  vinhoOptionImagem: {
+    width: 40,
+    height: 80,
+    resizeMode: 'contain',
   },
 });
